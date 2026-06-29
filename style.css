@@ -54,4 +54,15 @@ body {
   padding: 20px;
   color: #999;
   display: none;
+
+  &.visible {
+    display: block;
+        position: sticky;
+        left: 50%;
+        bottom: 0;
+  }
+  &.hidden {
+  display: none;
+    
+  }
 }
